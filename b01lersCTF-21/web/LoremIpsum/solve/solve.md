@@ -34,6 +34,6 @@ Entering those values in the provided script gives us a pin! Enter the pin into 
 
 `>>> with open('/home/loremipsum/flag', 'r') as f: print(f.read())`
 
-[console](/b01lersCTF-21/web/LoremIpsum/solve/flag.png)
+![console](/b01lersCTF-21/web/LoremIpsum/solve/flag.png)
 
 Then we will be able to the read the entire file and at the end, we will find the flag: `b0ctf{Fl4sK_d3buG_is_InseCure}`
