@@ -18,4 +18,4 @@ cat flag.txt
 
 ### Flag
 
-`RS{git_is_just_a_tre3_with_lots_of_branches}``
+`RS{git_is_just_a_tre3_with_lots_of_branches}`
