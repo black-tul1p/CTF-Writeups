@@ -1,6 +1,6 @@
 # Writeups for UMDCTF 2021
 
-I placed 83rd out of the 1227 players.
+I placed 82rd out of the 1227 players.
 
 ![UMDCTF](/UMDCTF-2021/_images/score.png)
 
