@@ -22,7 +22,7 @@ You will now be greeted by this page.
 
 Now, take a look at your `cookies` using the `Application` tab in the browser's `Dev Tools` (usually accessed by presing `F12`).
 
-![black-tul1p](/RITSEC-2021/web/Robots/solve/session.png)
+![black-tul1p](/RITSEC-2021/web/Sessions/solve/session.png)
 
 You will see a cookie titles `sessiontoken` with a base64 string value `UlN7MG5seV9PbmVfczNzc2lvbl90b2szbn0=`. Decoding this string in CyberChef gives us the flag.
 
