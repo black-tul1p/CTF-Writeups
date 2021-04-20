@@ -14,4 +14,4 @@ From this, we get the flag.
 
 ### Flag
 
-RS{StartedFromTheBottom!}
+`RS{StartedFromTheBottom!}`
