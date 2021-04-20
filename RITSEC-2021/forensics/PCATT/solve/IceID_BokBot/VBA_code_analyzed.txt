@@ -1,0 +1,141 @@
+olevba 0.56.1 on Python 3.9.2 - http://decalage.info/python/oletools
+===============================================================================
+FILE: IceID_Bokbot_RITSEC.docm
+Type: OpenXML
+-------------------------------------------------------------------------------
+VBA MACRO ThisDocument.cls 
+in file: word/vbaProject.bin - OLE stream: 'VBA/ThisDocument'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO NewMacros.bas 
+in file: word/vbaProject.bin - OLE stream: 'VBA/NewMacros'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Sub AutoOpen()
+	// gets text from a form box
+	Function getFormText() 
+		getFormText = frm.txt.Text
+	End Function
+
+	// removes underscores
+	Public Function rem_undscr(string)
+		rem_undscr = Replace(string, underscore, "")
+	End Function
+
+	// autolaunches the macro virus
+	Sub AutoOpen()
+		main
+	End Sub
+	Public Sub a8hv3(ai295)  // no idea what this is 
+	End Sub
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO Module1.bas 
+in file: word/vbaProject.bin - OLE stream: 'VBA/Module1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// c:\windows\system32\mshta.exe
+Public Const wierd_string As String = "p_:_\_j_v_a_q_b_j_f_\_f_l_f_g_r_z_3_2_\_z_f_u_g_n__r_k_r_"
+// RITSEC{R0TT1NGM@LC0D3}
+Public Const ROT_CP As String = "EVGFRP{E0GG1ATZ@YP0Q3}"
+
+// string value of underscore
+Public Const underscore As String = "_"
+// 13 (for decoding strings using ROT13)
+Public Const thirteen As Integer = -954 + 967
+
+// prints string to output stream
+Public Function print(file1, string1)
+	FileNumber = FreeFile
+	Open file1 For Output As #FileNumber
+	Print #FileNumber, Spc(-413 + 456)
+	Print #FileNumber, string1
+	Print #FileNumber, Spc(-413 + 456)
+	Close #FileNumber
+End Function
+
+// copies str2 into str1 (I think)
+Sub strcpy(str1, str2)
+	FileCopy str1, str2
+End Sub
+
+// gets num of chars in string
+Function strLen(string)
+	strLen = Len(string)
+End Function
+
+// Divides num for rot_13 solving
+Function fun4(num)
+	fun4 = num + 12324 / 474
+End Function
+
+// Decrypts caesar (rot13) cipher
+Function rot_13(string4) As String
+	Dim long1 As Long
+	Dim num2 As Integer
+	Dim num3 As Integer
+	For long1 = 1 To strLen(string4)
+		num3 = 0
+		string3 = VBA.Mid$(string4, long1, 1) 
+	num2 = Asc(string3)  // returns ascii code of first char
+	If (num2 > 64 And num2 < 91) Or (num2 > 96 And num2 < 123) Then
+		num3 = thirteen
+		num2 = num2 - num3
+		If num2 < 97 And num2 > 83 Then
+			num2 = fun4(num2)
+		ElseIf num2 < 65 Then
+			num2 = fun4(num2)
+		End If
+	End If
+	Mid$(string4, long1, 1) = VBA.Chr$(num2)
+	Next
+	rot_13 = string4
+End Function
+-------------------------------------------------------------------------------
+VBA MACRO Module2.bas 
+in file: word/vbaProject.bin - OLE stream: 'VBA/Module2'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+//main function that autolaunches
+// gets flags
+Sub main()
+Flag2 = rot_13(rem_undscr(wierd_string))
+Flag1 = rot_13(rem_undscr(ROT_CP))
+missing = rot_13(rem_undscr(not_found))
+strcpy Flag2, Flag1
+print missing, rot_13(getFormText)
+Shell Flag1 & " " & missing
+End Sub
+-------------------------------------------------------------------------------
+VBA MACRO UserForm1.frm 
+in file: word/vbaProject.bin - OLE stream: 'VBA/UserForm1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Private Sub TextBox1_Change()
+
+End Sub
+-------------------------------------------------------------------------------
+VBA FORM STRING IN 'word/vbaProject.bin' - OLE stream: 'UserForm1/o'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+<!QBPGLCR ugzy>
+-------------------------------------------------------------------------------
+VBA FORM Variable "b'TextBox1'" IN 'word/vbaProject.bin' - OLE stream: 'UserForm1'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+b'<!QBPGLCR ugzy>'
++----------+--------------------+---------------------------------------------+
+|Type      |Keyword             |Description                                  |
++----------+--------------------+---------------------------------------------+
+|AutoExec  |AutoOpen            |Runs when the Word document is opened        |
+|AutoExec  |TextBox1_Change     |Runs when the file is opened and ActiveX     |
+|          |                    |objects trigger events                       |
+|Suspicious|Open                |May open a file                              |
+|Suspicious|Output              |May write to a file (if combined with Open)  |
+|Suspicious|Print #             |May write to a file (if combined with Open)  |
+|Suspicious|FileCopy            |May copy a file                              |
+|Suspicious|Shell               |May run an executable file or a system       |
+|          |                    |command                                      |
+|Suspicious|Chr                 |May attempt to obfuscate specific strings    |
+|          |                    |(use option --deobf to deobfuscate)          |
+|Suspicious|Hex Strings         |Hex-encoded strings were detected, may be    |
+|          |                    |used to obfuscate strings (option --decode to|
+|          |                    |see all)                                     |
++----------+--------------------+---------------------------------------------+
+
