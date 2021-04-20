@@ -1,10 +1,10 @@
-# Description:
+# Description
 
 ### Title: BIRDTHIEF: FYSA
 
 Read the pdf in `\src` for the description.
 
-# Solution:
+# Solution
 
 There is a black bar covering something (likely the flag). Open the PDF in a PDF editor (like LibreOffice Draw) and drag the bar away like so.
 

@@ -1,4 +1,4 @@
-# Description:
+# Description
 
 ### Title: Blob
 
@@ -6,7 +6,7 @@ Ha. Blob. Did you get the reference?
 
 http://git.ritsec.club:7000/blob.git/
 
-# Solution:
+# Solution
 
 The challenge is about git blobs (Binary Large OBjects). First we have to look at the different commits using
 `git show`.

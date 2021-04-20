@@ -1,10 +1,10 @@
-# Description:
+# Description
 
 ### Title: BIRDTHIEF: FYSA
 
 Read the pdf in `\src` for the description.
 
-# Solution:
+# Solution
 
 Open the provided packet capture file in Wireshark. After a bit of scrolling you'll find a TCP packet with data segment containing a login username `pilot`, which is interesting. Right click on the TCP packet and select Follow, then select TCP stream.
 

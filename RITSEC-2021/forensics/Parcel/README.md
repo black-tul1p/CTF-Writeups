@@ -1,10 +1,10 @@
-# Description:
+# Description
 
 ### Title: Parcel
 
 That's a lot of magick
 
-# Solution:
+# Solution
 
 Extract the given archive that contains a file named `Parcel`. Analyzing the file using the command `file Parcel` (or renaming it as `Parcel.eml`) shows us that it's a collection of emails with a bunch of base64 encoded PNGs. Decoding the base64 strings to PNGs using https://base64.guru/converter/decode/image gives us a puzzle of sorts, with several pieces of the flag.
 
