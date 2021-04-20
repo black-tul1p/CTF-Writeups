@@ -8,8 +8,6 @@ git://git.ritsec.club:9418/corruption.git
 
 # Solution
 
-This was probably an unintended solution but I solved it as follows:
-
 When cloning the repo, you will see that it fails. What actually happens is that the as much of the repo as possible is downloaded, but this is then deleted (since fetching the rest of the repo fails thanks to the corruption). The cloning error that is returned indicates that it is most likely due to compression issues and the presence of an extremely large file on the remote side.
 
 So my hacky solution was to copy and paste the fetched `.git` folder before it was deleted. Try running `git fetch --all` to fetch the rest of the files. It doesn't work, so we have to something else. `cd` to the `.git` folder and edit the git `config` file to change `fetch = +refs/heads/*:refs/remotes/origin/*` to `fetch = +refs/heads/master:refs/remotes/origin/master`. This will only fetch files from the master branch for now, since it might be fine and some other branch might be corrupted.
