@@ -9,7 +9,7 @@ http://git.ritsec.club:7000/blob.git/
 # Solution:
 
 The challenge is about git blobs (Binary Large OBjects). First we have to look at the different commits using
-git show.
+`git show`.
 
 ```
 $ git show a69cb6306e8b75b6762d6aa1b0279244cacf3f3b
