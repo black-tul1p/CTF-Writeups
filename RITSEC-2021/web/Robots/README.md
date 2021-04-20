@@ -16,7 +16,7 @@ Add a `/robots.txt` after the link, and press enter. The robots.txt file content
 
 ![black-tul1p](/RITSEC-2021/web/Robots/solve/robots_txt.png)
 
-Decoding this string on CyberChef gives us the flag.
+Decoding this string in CyberChef gives us the flag.
 
 ### Flag
 
