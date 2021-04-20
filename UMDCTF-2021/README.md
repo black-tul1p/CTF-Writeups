@@ -10,7 +10,7 @@ UMDCTF 2021 is the fifth annual cybersecurity competition event created and host
 
 https://ctftime.org/event/1288
 
-![UMDCTF](/UMDCTF-2021/_images/UMDCTF_logo.png)
+<div style="text-align:center"><img src="/UMDCTF-2021/_images/UMDCTF_logo.png" /></div>
 
 ## Thoughts
 I found `pwn`, `rev` and `programming` to be the hardest sections in this CTF.
