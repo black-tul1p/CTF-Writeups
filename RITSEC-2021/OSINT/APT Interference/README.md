@@ -1,4 +1,4 @@
-# Description:
+# Description
 
 ### Title: APT Interference
 
