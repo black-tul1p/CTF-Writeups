@@ -1,8 +1,14 @@
 ### Welcome
 
-<p align="center">
-  <img src="/black-tul1p_transp.png" />
-</p>
+```
+________  ___       ________  ________  ___  __                  _________  ___  ___  ___     _____  ________   
+|\   __  \|\  \     |\   __  \|\   ____\|\  \|\  \               |\___   ___\\  \|\  \|\  \   / __  \|\   __  \  
+\ \  \|\ /\ \  \    \ \  \|\  \ \  \___|\ \  \/  /|_  ___________\|___ \  \_\ \  \\\  \ \  \ |\/_|\  \ \  \|\  \
+\ \   __  \ \  \    \ \   __  \ \  \    \ \   ___  \|\____________\  \ \  \ \ \  \\\  \ \  \\|/ \ \  \ \   ____\
+ \ \  \|\  \ \  \____\ \  \ \  \ \  \____\ \  \\ \  \|____________|   \ \  \ \ \  \\\  \ \  \____\ \  \ \  \___|
+  \ \_______\ \_______\ \__\ \__\ \_______\ \__\\ \__\                 \ \__\ \ \_______\ \_______\ \__\ \__\   
+   \|_______|\|_______|\|__|\|__|\|_______|\|__| \|__|                  \|__|  \|_______|\|_______|\|__|\|__|   
+```
 
 This is a repository of writeups for various CTF challenges that I have successfully completed. Not all the solutions that are provided may have been the intention of the creator of the challenge but I will make sure to mention this where necessary, since it can prove helpful to both the solver and the creator. I hope this helps you!
 
