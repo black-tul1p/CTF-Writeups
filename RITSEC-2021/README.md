@@ -12,4 +12,4 @@ https://ctftime.org/event/1309
 ![RITSEC-CTF](/RITSEC-2021/misc_images/RITSEC_logo.png)
 
 ## Thoughts
-I found `rev/bin` and `crypto` to be the hardest sections in this CTF.
+I found `rev/bin`, `steg` and `crypto` to be the hardest sections in this CTF.
