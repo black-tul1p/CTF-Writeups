@@ -20,7 +20,7 @@ You will now be greeted by this page.
 
 ![black-tul1p](/RITSEC-2021/web/Sessions/solve/iroh.png)
 
-Now, take a look at your `cookies` using the `Application` tab in the browser's `Dev Tools` (usually accessed by presing `F12`).
+Now, take a look at your `cookies` using the `Application` tab in the browser's `Dev Tools` (usually accessed by pressing `F12`).
 
 ![black-tul1p](/RITSEC-2021/web/Sessions/solve/session.png)
 
