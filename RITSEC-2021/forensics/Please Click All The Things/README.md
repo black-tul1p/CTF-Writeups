@@ -18,8 +18,8 @@ PASSWORD: RITSEC
 Each solution is in the corresponding folder
 
 ### Sub-challenges
-- [BegineersRITSEC.html](/RITSEC-2021/forensics/BeginnersRITSEC.html/solve.md)
-- [GandCrab](/RITSEC-2021/forensics/GandCrab_Ursnif/solve.md)
+- [BeginnersRITSEC.html](/RITSEC-2021/forensics/Please\ Click\ All\ The\ Things/BeginnersRITSEC.html/solve.md)
+- [GandCrab](/RITSEC-2021/forensics/Please\ Click\ All\ The\ Things/GandCrab_Ursnif/solve.md)
 - Ursnif (Unsolvable, so the corresponding challenge was removed)
-- [IceID](/RITSEC-2021/forensics/IceID_BokBot/solve_IceId.md)
+- [IceID](/RITSEC-2021/forensics/Please\ Click\ All\ The\ Things/IceID_BokBot/solve_IceId.md)
 - BokBot (Unsolved; Challenge was fixed after CTF; I have provided the fixed file)
