@@ -1,5 +1,6 @@
 # Writeups for RITSEC CTF 2021
 We placed at the 55th position out of 723 teams.
+
 ![black-tul1p](/RITSEC-2021/solves_list/score.png)
 
 ## Description
