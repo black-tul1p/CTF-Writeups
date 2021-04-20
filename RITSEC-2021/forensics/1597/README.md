@@ -10,7 +10,7 @@ http://git.ritsec.club:7000/1597.git/
 
 The XKCD comic in the description talks about git branches, so we have to look at the branches in this repo. Clone the repo and view the branches using `git branch`. Restore the `flag.txt` file and read the file.
 
-```
+```console
 git checkout origin/\!flag
 cat flag.txt
 ```
